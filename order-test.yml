@@ -11,16 +11,16 @@ spring:
   jpa:
     # 打印SQL
     show-sql: true
-eureka:
-  client:
-    service-url:
-      # eureka注册地址
-      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
-  instance:
-    # 向eureka注册真实ip设置
-    prefer-ip-address: true
-    # 起一个别名
-#    hostname: kanxue
+#eureka:
+#  client:
+#    service-url:
+#      # eureka注册地址
+#      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
+#  instance:
+#    # 向eureka注册真实ip设置
+#    prefer-ip-address: true
+#    # 起一个别名
+##   hostname: kanxue
 env:
   test13
 girl:
