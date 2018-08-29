@@ -1,17 +1,16 @@
 spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: 123456
-    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
   rabbitmq:
-    host: 127.0.0.1
     port: 5672
+    host: localhost
     username: guest
     password: guest
-  redis:
-    host: 127.0.0.1
-    port: 6379
+  # 数据库配置
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: guochen
+      password: guochen
+      url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
   jpa:
+    # 打印SQL
     show-sql: true
 girl: 18
