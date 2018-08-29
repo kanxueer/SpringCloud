@@ -22,7 +22,7 @@ spring:
 #    # 起一个别名
 ##   hostname: kanxue
 env:
-  test23
+  test33
 girl:
   name: mo
   age: 17
